@@ -1,4 +1,4 @@
-# KSC2Max-bot-notifier
+# KSC-Max-bot-notifier
 Отправляет уведомления о событиях Kaspersky Security Center в мессенджер Max.
 
 ## Установка и запуск
