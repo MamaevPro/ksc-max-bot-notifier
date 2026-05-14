@@ -34,14 +34,14 @@ build.cmd
 **Примеры**:
 ```
 ksc-max-bot-notifier.exe 123456 token123
-ksc-max-bot-notifier.exe 123456 token123 warning
+ksc-max-bot-notifier.exe 123456 token123 critical
 ksc-max-bot-notifier.exe 123456 token123 debug
 ksc-max-bot-notifier.exe 123456 token123 error
 ```
 **Уровни логирования**:
 1. `debug`    - Детальная отладочная информация
-2. `info`     - Информационные сообщения (по умолчанию)
-3. `warning`  - Только предупреждения и ошибки
+2. `info`     - Информационные сообщения
+3. `warning`  - Только предупреждения и ошибки (по умолчанию)
 4. `error`    - Только ошибки
 5. `critical` - Только критические ошибки
 
