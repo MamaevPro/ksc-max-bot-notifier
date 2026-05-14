@@ -13,7 +13,9 @@ cd ksc-max-bot-notifier
 pip install -r requirements.txt
 build.cmd
 ```
-Для сборки необходим [Python 3 for Windows](https://www.python.org/downloads/windows/), вместо команды `git clone` репозиторий можно просто скачать.
+Для сборки необходим [Python 3 for Windows](https://www.python.org/downloads/windows/), вместо команды `git clone` репозиторий можно просто скачать:
+<img width="409" height="355" alt="image" src="https://github.com/user-attachments/assets/e4fb3afa-bf1b-4f6f-b7ae-85fb2fcb76d1" />
+
 
 ## Настройка Kaspersky Security Center
 1. В свойствах **Сервера администрирования**, на вкладке **Уведомления** необходимо включить запуск исполняемого файла, выбрать исполняемый файл, указать идентификатор чата и токен бота.
