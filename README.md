@@ -30,7 +30,7 @@ build.cmd
 Использование: `ksc-max-bot-notifier.exe <chat_id> <bot_token> [loglevel]`
 
 **Аргументы**:
-1. `chat_id`     - ID чата в Max (обязательный)
+1. `chat_id`     - ID чата в Max (обязательный). В [веб-версии](https://web.max.ru) `chat_id` отображается в конце строки URL
 2. `bot_token`   - Токен доступа к Max Bot API (обязательный)
 3. `loglevel`    - (опционально) уровень логирования: debug, info, warning, error, critical
 
