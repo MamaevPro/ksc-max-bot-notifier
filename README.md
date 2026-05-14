@@ -4,7 +4,7 @@
 ## Установка и запуск
 
 ### Быстрый старт (Простой способ)
-1. Скачайте [последнюю версию исполняемого файла](https://github.com/MamaevPro/ksc-max-bot-notifier/releases/tag/ksc-max-bot-notifier)
+1. Скачайте [последнюю версию ksc-max-bot-notifier.exe](https://github.com/MamaevPro/ksc-max-bot-notifier/releases/tag/ksc-max-bot-notifier)
 2. Произведите настройку KSC согласно инструкции ниже
 
 ###  Самостоятельная сборка исполняемого файла (Рекомендуемый способ)
