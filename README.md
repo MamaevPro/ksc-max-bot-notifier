@@ -2,7 +2,7 @@
 Отправляет уведомления о событиях Kaspersky Security Center в Max Bot.
 
 ## Установка 
-Скачать последний релиз в виде испольняемого файла exe
+Установка не требуется, достаточно загрузки последнего релиза в виде исполняемого файла. 
 
 ## Настройка KSC
 1. В свойствах +сервера администрирования+, на вкладке "Уведомления" необходимо включить запуск исполняемого файла
@@ -31,9 +31,12 @@
   warning  - Только предупреждения и ошибки
   error    - Только ошибки
   critical - Только критические ошибки
-  
-  
-## Самостоятельная сборка
+
+## Самостоятельная сборка исполняемого файла
+git clone https://github.com/MamaevPro/ksc-max-bot-notifier/
 cd ksc-max-bot-notifier
 pip install -r requirements.txt
 build.cmd
+
+## Пример работы
+<img width="501" height="284" alt="image" src="https://github.com/user-attachments/assets/a3bb2b11-e71e-4399-9a7f-895853cb4a52" />
