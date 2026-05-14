@@ -46,4 +46,5 @@ ksc-max-bot-notifier.exe 123456 token123 error
 5. `critical` - Только критические ошибки
 
 ## Пример работы
-<img width="501" height="284" alt="image" src="https://github.com/user-attachments/assets/a3bb2b11-e71e-4399-9a7f-895853cb4a52" />
+<img width="501" height="284" alt="image" src="https://github.com/user-attachments/assets/539bd5c1-99d4-4816-b485-5e32952186cf" />
+
