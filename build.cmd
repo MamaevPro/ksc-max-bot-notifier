@@ -1,0 +1,1 @@
+pyinstaller -F -c -y --onefile  ksc-max-bot-notifier.py
