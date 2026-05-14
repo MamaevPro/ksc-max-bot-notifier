@@ -1,4 +1,4 @@
-# KSC Event Notifier for Max
+# KSC event notifier for Max
 Отправляет уведомления о событиях Kaspersky Security Center в мессенджер Max.
 
 ## Установка и запуск
