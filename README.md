@@ -1,42 +1,45 @@
 # KSC Event Notifier for Max Bot
-Отправляет уведомления о событиях Kaspersky Security Center в Max Bot.
+Отправляет уведомления о событиях Kaspersky Security Center в мессенджер Max.
 
 ## Установка 
-Установка не требуется, достаточно загрузки последнего релиза в виде исполняемого файла. 
+Установка не требуется, достаточно загрузки последнего релиза в виде исполняемого файла, либо самостоятельная сборка(**рекомендуется**).
 
-## Настройка KSC
-1. В свойствах +сервера администрирования+, на вкладке "Уведомления" необходимо включить запуск исполняемого файла
+## Настройка Kaspersky Security Center
+1. В свойствах **Сервера администрирования**, на вкладке **Уведомления** необходимо включить запуск исполняемого файла, выбрать исполняемый файл, указать идентификатор чата и токен бота.
 <img width="1629" height="914" alt="image" src="https://github.com/user-attachments/assets/d0e34e45-82c0-4c6b-b593-9f72c188fe61" />
-2. Разделе "Управляемые устройства" редактируем политику "Сервер администрирования Kaspersky Security Center", для необходимых уведомлений включаем уведомление запуском исполняего файла
+
+2. Разделе **Управляемые устройства** редактируем политику **Сервер администрирования Kaspersky Security Center**, для необходимых уведомлений включаем уведомление запуском исполняего файла.
 <img width="1398" height="814" alt="image" src="https://github.com/user-attachments/assets/dadc0e02-cccd-4efa-8241-55e79c4ada2c" />
-! Примечание: по соображениям безопасности не рекомендуется производить сборку скрипта на сервере администрирования
+
+**Примечание: в целях безопасности не рекомендуется производить сборку скрипта на сервере администрирования**
 
 ## Аргументы запуска
-Использование: ksc-max-bot-notifier.exe <chat_id> <bot_token> [loglevel]
+Использование: `ksc-max-bot-notifier.exe <chat_id> <bot_token> [loglevel]`
 
-Аргументы:
-  chat_id     - ID чата в Max Bot (обязательный)
-  bot_token   - Токен доступа к Max Bot API (обязательный)
-  loglevel    - (опционально) уровень логирования: debug, info, warning, error, critical
+**Аргументы**:
+1. `chat_id`     - ID чата в Max (обязательный)
+2. `bot_token`   - Токен доступа к Max Bot API (обязательный)
+3. `loglevel`    - (опционально) уровень логирования: debug, info, warning, error, critical
 
-Примеры:
-  ksc-max-bot-notifier.exe 123456 token123
-  ksc-max-bot-notifier.exe 123456 token123 warning
-  ksc-max-bot-notifier.exe 123456 token123 debug
-  ksc-max-bot-notifier.exe 123456 token123 error
-
-Уровни логирования:
-  debug    - Детальная отладочная информация
-  info     - Информационные сообщения (по умолчанию)
-  warning  - Только предупреждения и ошибки
-  error    - Только ошибки
-  critical - Только критические ошибки
+**Примеры**:
+```
+ksc-max-bot-notifier.exe 123456 token123
+ksc-max-bot-notifier.exe 123456 token123 warning
+ksc-max-bot-notifier.exe 123456 token123 debug
+ksc-max-bot-notifier.exe 123456 token123 error
+```
+**Уровни логирования**:
+1. `debug`    - Детальная отладочная информация
+2. `info`     - Информационные сообщения (по умолчанию)
+3. `warning`  - Только предупреждения и ошибки
+4. `error`    - Только ошибки
+5. `critical` - Только критические ошибки
 
 ## Самостоятельная сборка исполняемого файла
-git clone https://github.com/MamaevPro/ksc-max-bot-notifier/
-cd ksc-max-bot-notifier
-pip install -r requirements.txt
-build.cmd
+1. `git clone https://github.com/MamaevPro/ksc-max-bot-notifier/`
+2. `cd ksc-max-bot-notifier`
+3. `pip install -r requirements.txt`
+4. `build.cmd`
 
 ## Пример работы
 <img width="501" height="284" alt="image" src="https://github.com/user-attachments/assets/a3bb2b11-e71e-4399-9a7f-895853cb4a52" />
