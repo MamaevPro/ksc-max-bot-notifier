@@ -1,8 +1,19 @@
 # KSC Event Notifier for Max Bot
 Отправляет уведомления о событиях Kaspersky Security Center в мессенджер Max.
 
-## Установка 
-Установка не требуется, достаточно [загрузки последнего релиза](https://github.com/MamaevPro/ksc-max-bot-notifier/releases/tag/ksc-max-bot-notifier) в виде исполняемого файла, либо самостоятельная сборка(**рекомендуется**).
+## Установка и запуск
+
+### Быстрый старт (простой способ)
+1. Перейдите в [раздел релизов]([ссылка_на_релизы](https://github.com/MamaevPro/ksc-max-bot-notifier/releases/tag/ksc-max-bot-notifier))
+2. Скачайте последнюю версию исполняемого файла
+3. Запустите файл с необходимыми аргументами
+
+###  Самостоятельная сборка исполняемого файла (Рекомендуемый способ)
+```git clone https://github.com/MamaevPro/ksc-max-bot-notifier/
+cd ksc-max-bot-notifier
+pip install -r requirements.txt
+build.cmd
+```
 
 ## Настройка Kaspersky Security Center
 1. В свойствах **Сервера администрирования**, на вкладке **Уведомления** необходимо включить запуск исполняемого файла, выбрать исполняемый файл, указать идентификатор чата и токен бота.
@@ -34,12 +45,6 @@ ksc-max-bot-notifier.exe 123456 token123 error
 3. `warning`  - Только предупреждения и ошибки
 4. `error`    - Только ошибки
 5. `critical` - Только критические ошибки
-
-## Самостоятельная сборка исполняемого файла
-1. `git clone https://github.com/MamaevPro/ksc-max-bot-notifier/`
-2. `cd ksc-max-bot-notifier`
-3. `pip install -r requirements.txt`
-4. `build.cmd`
 
 ## Пример работы
 <img width="501" height="284" alt="image" src="https://github.com/user-attachments/assets/a3bb2b11-e71e-4399-9a7f-895853cb4a52" />
