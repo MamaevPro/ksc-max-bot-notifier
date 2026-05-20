@@ -60,11 +60,11 @@ class MaxBotNotifier:
         Returns:
             bool: True если отправка успешна, иначе False
         """
-        headers = {"Content-Type": "application/json"}
-        params = {
-            "chat_id": self.chat_id,
-            "access_token": self.token
+        headers={
+            "Content-Type":"application/json", 
+            "Authorization": self.token
         }
+        params={"chat_id":self.chat_id}   
         data = {
             'text': message,
             'format': 'markdown'
