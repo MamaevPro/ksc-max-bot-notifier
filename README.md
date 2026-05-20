@@ -1,6 +1,9 @@
 # KSC-Max-bot-notifier
 Отправляет уведомления о событиях Kaspersky Security Center в мессенджер Max.
 
+## Что нового?
+2026-05-20 - Исправлена ошибка Query parameter access_token is deprecated, use Authorization header
+
 ## Установка и запуск
 
 ### Быстрый старт (простой способ)
