@@ -47,7 +47,7 @@ class MaxBotNotifier:
         """
         self.chat_id = chat_id
         self.token = token
-        self.api_url = 'https://botapi.max.ru/messages'
+        self.api_url = 'https://platform-api2.max.ru/messages'
         logger.info(f"Инициализация Max Bot отправителя для чата: {chat_id}")
     
     def send_message(self, message: str) -> bool:
