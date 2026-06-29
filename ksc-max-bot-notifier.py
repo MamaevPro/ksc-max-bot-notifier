@@ -77,7 +77,8 @@ class MaxBotNotifier:
                 json=data,
                 params=params,
                 headers=headers,
-                timeout=30
+                timeout=30,
+                verify=False
             )
             
             if response.ok:
